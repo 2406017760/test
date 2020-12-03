@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    tools:context=".startActivity">
+
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="72dp"
+        android:background="@mipmap/bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="沙雕浏览器"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/editText1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.771" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonbg"
+        android:onClick="onClick"
+        android:text="点我的都是张玥的爸爸"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText1"
+        app:layout_constraintVertical_bias="0.065" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="272dp"
+        android:ems="10"
+        android:hint="快点输入啊"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#D5D182"
+            android:background="@drawable/btn"
+            android:textSize="10dp"
+            android:text="人生捷径"
+            android:onClick="onClick"
+            android:layout_marginLeft="50dp"></Button>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:textSize="10dp"
+            android:text="bilibili"
+            android:backgroundTint="#9BD582"
+            android:background="@drawable/btn"
+            android:onClick="onClick"
+            android:layout_marginLeft="30dp"></Button>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="下载listen1"
+            android:backgroundTint="#82D5D5"
+            android:background="@drawable/btn"
+            android:textSize="10dp"
+            android:onClick="onClick"
+            android:layout_marginLeft="30dp"></Button>
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:textSize="10dp"
+            android:text="bing"
+            android:backgroundTint="#D59A82"
+            android:background="@drawable/btn"
+            android:onClick="onClick"
+            android:layout_marginLeft="30dp"></Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lrlot2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#CF82D5"
+            android:text="爱奇艺"
+            android:background="@drawable/btn"
+            android:onClick="onClick"
+            android:layout_marginLeft="50dp"></Button>
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#A828A7"
+            android:text="TB史价查询"
+            android:background="@drawable/btn"
+            android:onClick="onClick"
+            android:layout_marginLeft="30dp"></Button>
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#53A61F"
+
+            android:background="@drawable/btn"
+            android:onClick="onClick"
+            android:layout_marginLeft="30dp"></Button>
+
+        <Button
+            android:id="@+id/btn10"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#BDB174"
+            android:background="@drawable/btn"
+            android:textSize="40dp"
+            android:text="+"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="30dp"></Button>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="本浏览器的优点：无痕浏览，不保留任何一点痕迹\n                  缺点：不能保存历史记录。"
+        app:layout_constraintTop_toBottomOf="@id/lrlot2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"></TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
