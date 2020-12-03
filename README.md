@@ -1,4 +1,4 @@
-Welcome to my GitHub. This repository was the first time i tried using.  Click on it to see around.
+Welcome to my GitHub. This repository is the first time i tried using.  Click on it to see around.
 
 Oh! I haven't introduced myself...
 
